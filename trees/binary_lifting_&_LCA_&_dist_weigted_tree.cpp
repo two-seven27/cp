@@ -1,3 +1,6 @@
+// adjacency list 
+//vector<vector<array<int,2>>> adj(n+1) , {node, weight}
+// one based indexing is being followed, don't forget
 int l = ceil_log(n, 2);
 int timer = 0;
 
