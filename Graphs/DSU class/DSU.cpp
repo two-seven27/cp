@@ -34,7 +34,9 @@ public:
         size[u] += size[v];
         diff--;
     }
-
+    bool same(int u, int v) {
+        return find(u)==find(v);
+    }
     int get_size(int u) {
         return size[find(u)];
     }
